@@ -25,7 +25,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(10px);
 }
 
 .first_page h1 {
@@ -62,6 +61,8 @@
   backdrop-filter: blur(7px);
   gap: 100px;
   background-color: rgba(51, 61, 80, 0.7);
+    transform: translate3d(0, 0, 0); /* Creates a New Stacking Context */
+
 }
 
 .aboutus_main {
