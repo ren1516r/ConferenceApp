@@ -2,7 +2,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const venueSlice = createSlice({
-  name: "venue",
+  name: "venue", //name of the slice
   initialState: [
     {
       img: "https://pixabay.com/images/download/chairs-2181916_640.jpg",
@@ -58,3 +58,4 @@ export const venueSlice = createSlice({
 export const { incrementQuantity, decrementQuantity } = venueSlice.actions;
 
 export default venueSlice.reducer;
+console.log(venueSlice);
